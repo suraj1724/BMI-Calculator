@@ -21,12 +21,15 @@ radiofemale=document.getElementById("female");
    if(radiomale.checked){
     if((result>0) && (result<18)){
       r.innerHTML=" You Are UNDERWIGHT";
+      r.style.color="blue";
      }
      else if((result>18) && (result<24) ){
-      r.innerHTML="You Are Normal"
+      r.innerHTML="You Are Normal";
+      r.style.color="green";
      }
      else if (result>25){
-      r.innerHTML="You Are Overweight"
+      r.innerHTML="You Are Overweight";
+      r.style.color="red";
      }
    }
 
@@ -34,12 +37,16 @@ radiofemale=document.getElementById("female");
    if(radiofemale.checked){
     if((result>0) && (result<12)){
       r.innerHTML=" You Are UNDERWIGHT";
+      r.style.color="blue";
      }
-     else if((result>12) && (result<18) ){
-      r.innerHTML="You Are Normal"
+     else if((result>12) && (result<21) ){
+      r.innerHTML="You Are Normal";
+      r.style.color="green";
      }
-     else if (result>18){
-      r.innerHTML="You Are Overweight"
+     else if (result>21){
+      r.innerHTML="You Are Overweight";
+      r.style.color="red";
+
      }
    }
   
