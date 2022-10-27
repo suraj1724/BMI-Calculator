@@ -1,0 +1,16 @@
+#AgeNum {
+  width: 150px;
+  border: 1px solid black;
+}
+
+.bmi {
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px;
+  width: 450px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
